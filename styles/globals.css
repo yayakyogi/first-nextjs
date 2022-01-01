@@ -20,3 +20,8 @@ a {
 #__next {
   height: 100%;
 }
+
+.title-not-found {
+  color: gray;
+  text-align: center;
+}
