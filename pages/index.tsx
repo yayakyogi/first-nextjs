@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function home() {
   return (
-    <Layout>
+    <Layout pageTitle="Home Page">
       <h1 className={styles.title}>Ginantaka Code</h1>
     </Layout>
   );
