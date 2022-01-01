@@ -1,14 +1,10 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
+import styles from "../styles/Home.module.css";
 
 export default function home() {
   return (
-    <>
-      <Header />
-      <div>
-        <h1>Blog</h1>
-      </div>
-      <Footer />
-    </>
+    <Layout>
+      <h1 className={styles.title}>Ginantaka Code</h1>
+    </Layout>
   );
 }
